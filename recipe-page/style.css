@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --clr-yellow: #F2E257;
+    --clr-black: #1E1E1E;
+}
+
+body {
+    margin: 0;
+    background: var(--clr-yellow);
+}
+
+img {
+    max-width: 100%;
+}
+
+main, nav {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: var(--clr-black);
+    padding-block: .625rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo__img {
+    height: 3.75rem;
+}
+.logo__text {
+    font-family: "Slackey", serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: var(--clr-yellow);
+}
+
+.card {
+    font-family: "Spicy Rice", serif;
+    margin-block: 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.card__figure {
+    background: #fff;
+    padding: 16px 16px 8px 16px;
+    border-radius: 24px;
+    box-shadow: .5rem .5rem var(--clr-black);
+    border: 2px solid;
+    transition: all 0.3s ease-in-out;
+}
+#burger:hover {
+    background: #F1A155;
+}
+#pasta:hover {
+    background: hsl(10, 100%, 75%);
+}
+#lemonade:hover {
+    background: #CDD18E;
+}
+
+.card__image {
+    border-radius: 1.5rem;
+}
+.card__caption {
+    font-size: 16px;
+    text-align: center;
+}
+
+footer {
+    font-family: "Lato",serif;
+    font-size: .75rem;
+    letter-spacing: 8.64px;
+    background: var(--clr-black);
+    text-align: center;
+    padding: .5rem;
+    color: var(--clr-yellow);
+}
+
+footer > a {
+    color: cyan;
+    text-decoration: none;
+}
