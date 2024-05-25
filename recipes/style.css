@@ -1,0 +1,9 @@
+body {
+    background: initial;
+    margin: 1rem;
+  }
+
+  h1, h2 , ul, p, li {
+    margin-block: 1rem;
+    font-family: Arial, sans-serif;
+  }
